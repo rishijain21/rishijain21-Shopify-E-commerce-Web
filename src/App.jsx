@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Navbar from './components/navbar/navbar';
+import Navbar from './components/navbar/Navbar';
 import Shop from './pages/shop';
 import ShopCategory from './pages/shopCategory';
 import Product from './pages/products';
