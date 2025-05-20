@@ -1,0 +1,33 @@
+.Bredcrums {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  color: #5e5e5e;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 0 10px;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 90%;
+}
+
+/* Tablet devices */
+@media screen and (min-width: 600px) {
+  .Bredcrums {
+    font-size: 18px;
+    gap: 10px;
+  }
+}
+
+/* Desktop devices */
+@media screen and (min-width: 1024px) {
+  .Bredcrums {
+    font-size: 20px;
+    justify-content: flex-start;
+    max-width: 80%;
+    text-align: left;
+  }
+}

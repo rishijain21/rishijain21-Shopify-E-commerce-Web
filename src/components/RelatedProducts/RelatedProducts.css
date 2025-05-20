@@ -1,0 +1,92 @@
+.relatedProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  min-height: 90vh;
+  padding: 50px 20px 80px;
+  box-sizing: border-box;
+  background: #fafafa;
+}
+
+.relatedProducts h1 {
+  color: #222222;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.relatedProducts hr {
+  width: 180px;
+  height: 6px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #3a3a3a, #7bc9a7);
+  border: none;
+  margin-bottom: 50px;
+  box-shadow: 0 3px 8px rgba(123, 201, 167, 0.6);
+  transition: width 0.3s ease;
+}
+
+.relatedProducts-items {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 10px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .relatedProducts {
+    padding: 40px 15px 60px;
+  }
+
+  .relatedProducts h1 {
+    font-size: 36px;
+  }
+
+  .relatedProducts hr {
+    width: 140px;
+    height: 5px;
+  }
+
+  .relatedProducts-items {
+    gap: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .relatedProducts h1 {
+    font-size: 28px;
+  }
+
+  .relatedProducts hr {
+    width: 110px;
+    height: 4px;
+  }
+
+  .relatedProducts-items {
+    gap: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .relatedProducts h1 {
+    font-size: 24px;
+  }
+
+  .relatedProducts hr {
+    width: 80px;
+    height: 3px;
+  }
+
+  .relatedProducts-items {
+    gap: 14px;
+  }
+}
