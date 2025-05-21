@@ -1,8 +1,8 @@
 import React from "react";
-import "./Bredcrums.css";
+import "./Breadcrumbs .css";
 import arrow_icon from "../../assets/arrow_icon.png";
 
-const Bredcrums = ({ product }) => {
+const Breadcrumbs = ({ product }) => {
   if (!product) {
     return <div className="Bredcrums">Loading product details...</div>;
   }
@@ -17,4 +17,4 @@ const Bredcrums = ({ product }) => {
   );
 };
 
-export default Bredcrums;
+export default Breadcrumbs;

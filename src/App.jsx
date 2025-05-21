@@ -8,7 +8,7 @@ import ShopCategory from './pages/shopCategory';
 import Product from './pages/products';
 import Cart from './pages/cart';
 import LoginSignup from './pages/loginsignup';
-import Foooter from './components/footer/Foooter';
+import Footer from './components/footer/Footer';
 import men_banner from './assets/banner.jpg';
 import women_banner from './assets/women_banner.avif';
 import kids_banner from './assets/kids_banner.jpg';
@@ -28,7 +28,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginSignup />} />
         </Routes>
-       <Foooter/>
+       <Footer/>
 
       </BrowserRouter>
     </div>
