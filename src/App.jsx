@@ -8,11 +8,11 @@ import ShopCategory from './pages/shopCategory';
 import Product from './pages/products';
 import Cart from './pages/cart';
 import LoginSignup from './pages/loginsignup';
-import Footer from './components/footer/Footer';
-
 import men_banner from './assets/banner.jpg';
 import women_banner from './assets/women_banner.avif';
 import kids_banner from './assets/kids_banner.jpg';
+import Footer from './components/Footer/FooterItem';
+
 
 function App() { 
   return (
@@ -28,6 +28,7 @@ function App() {
           <Route path="/product/:productId" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginSignup />} />
+          
         </Routes>
        <Footer/>
 
