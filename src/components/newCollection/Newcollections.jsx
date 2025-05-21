@@ -1,5 +1,5 @@
 import React from 'react'
-import './newCollections.css'
+import './newCollectionsCSS.css'
 import Item from '../items/item'
 import new_collections from '../../assets/newcollections'
 
