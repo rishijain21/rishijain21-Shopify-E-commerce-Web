@@ -9,6 +9,7 @@ import Product from './pages/products';
 import Cart from './pages/cart';
 import LoginSignup from './pages/loginsignup';
 import Footer from './components/footer/Footer';
+
 import men_banner from './assets/banner.jpg';
 import women_banner from './assets/women_banner.avif';
 import kids_banner from './assets/kids_banner.jpg';
