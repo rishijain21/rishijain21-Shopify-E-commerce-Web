@@ -1,6 +1,8 @@
-# 🛍️ Shopify E-commerce Web (Frontend Only)
+# 🛍️ Shopify E-commerce Web
 
 A sleek and responsive e-commerce frontend built with React and Vite. This application allows users to browse products, add them to a cart, and manage cart items—all without a backend. It leverages React's Context API for global state management and React Props for dynamic product rendering.
+
+https://rishijain21-shopify-e-commerce-web-3qhc.vercel.app/
 
 ## ✨ Features
 
@@ -132,14 +134,6 @@ ecommerce/
 
 
 The application will be available at `http://localhost:5173`.
-
-## 🧠 Learnings and Concepts
-
-* **React Props**: Used for passing product data to components like `ProductCard`.
-* **React Context API**: Implemented in `CartContext.jsx` to manage cart state globally.
-* **State Management**: Handled using React's `useState` and `useContext` hooks.
-* **Component Reusability**: Created reusable components for products, cart, and navigation.([Stack Overflow][4])
-
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/4aef9738-1bba-42ea-8664-a473294d3729)
 
@@ -151,4 +145,12 @@ The application will be available at `http://localhost:5173`.
 
 ![image](https://github.com/user-attachments/assets/a5a49256-4712-48ff-9031-0fae3d78bfb9)
 ![image](https://github.com/user-attachments/assets/a0e9728a-8fb5-4f52-b2e3-674181c4ba02)
+## 🧠 Learnings and Concepts
+
+* **React Props**: Used for passing product data to components like `ProductCard`.
+* **React Context API**: Implemented in `CartContext.jsx` to manage cart state globally.
+* **State Management**: Handled using React's `useState` and `useContext` hooks.
+* **Component Reusability**: Created reusable components for products, cart, and navigation.([Stack Overflow][4])
+
+
 
