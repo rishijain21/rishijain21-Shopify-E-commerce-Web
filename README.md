@@ -104,7 +104,7 @@ ecommerce/
 
 ### Prerequisites
 
-* Node.js and npm installed on your machine.([DEV Community][1])
+* Node.js and npm installed on your machine.
 
 ### Installation
 
